@@ -1,0 +1,22 @@
+body{
+    font-family: Century;
+    text-align:center;
+    background-color: #DDDBF1;
+}
+h1{
+    color: #3C4F76;
+}
+#balance{
+    font-weight: bold;
+}
+input,select,button{
+    padding: 8px;
+    margin: 5px;
+}
+button{
+    cursor:pointer;
+}
+ul{
+    list-style:none;
+    padding:0;
+}
