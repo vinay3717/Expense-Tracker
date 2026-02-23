@@ -16,8 +16,31 @@
         </select>
         <button onclick="addTransaction()">Add</button>
     </div>
-    <h3>Transactions</h3>
-    <ul id="list"></ul>
+    <div class="tables">
+
+    <div class="income-section">
+        <h3>Income</h3>
+        <table id="incomeTable" border="1">
+            <tr>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="expense-section">
+        <h3>Expenses</h3>
+        <table id="expenseTable" border="1">
+            <tr>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+
+</div>
     <script src="script.js"></script>
 </body>
 </html>
